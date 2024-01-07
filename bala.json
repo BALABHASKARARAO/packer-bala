@@ -6,6 +6,7 @@
         "instance_type": "t2.micro",
         "ssh_username": "ec2-user",
         "ami_name": "bala-ami-2",
-        "iam_instance_profile": "packer-iam-role"
+        "iam_instance_profile": "packer-iam-role",
+        "ssh_interface": "session_manager"
     }]
 }
