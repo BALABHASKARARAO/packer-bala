@@ -1,0 +1,12 @@
+{
+    "builders": [{
+        "type": "amazon-ebs",
+        "region": "us-west-2",
+        "source_ami": "ami-01450e8988a4e7f44",
+        "instance_type": "t2.micro",
+        "ssh_username": "ec2-user",
+        "ami_name": "myfirstimagefrompacker56",
+        "iam_instance_profile": "SSMAutomationPackerCF",
+        "ssh_interface" : "session_manager"
+    }]
+}
